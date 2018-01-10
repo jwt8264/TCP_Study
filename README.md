@@ -14,20 +14,26 @@ run the command `javac -d bld $(find . -name "*.java")`
 ## How to run
 You will need two instances of the program running, a client to send the file and a server to recieve. 
 ### Execution options
-go to the bld folder
+Go to the bld folder
 
-run `java fcntcp` to display a list of arguments
+Run `java fcntcp` to display a list of arguments
 
 ### Constraints
 The program was designed to transmit 1-4MB files, so larger files might not work. Smaller files will probably work. 
 ### Start the server first
-go to the bld folder
+Go to the bld folder
 
-run `java fcntcp -s <port>` and give it an available port.
+Run `java fcntcp -s <port>` and give it an available port.
 ### Start the client
-in a second terminal, go to the bld folder
+In a second terminal, go to the bld folder
 
-run `java fcntcp -c -f <file> <server address> <port>` and supply the file you are sending, the address of the server started in the previous step, and the port that it is listening on. 
+Run `java fcntcp -c -f <file> <server address> <port>` and supply the file you are sending, the address of the server started in the previous step, and the port that it is listening on. 
+
+While running, the client may print out some messages telling you what it's doing. 
+
+When it's done, you can check the server instance that you started and it should print out the MD5 sum of the file the client sent. 
+
+
 
 ## How do I know it worked
 Calculate the MD5 sum of the original file you are sending, either by hand, or use a diff. The MD5 output by the server instance of the program should match the MD5 that you calculated. 
