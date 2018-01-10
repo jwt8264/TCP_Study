@@ -1,15 +1,15 @@
 # TCP Study
 
-This project was an individual final project that I completed for my computer networking course.
+This project was an individual final project that I completed for my computer networking course. With the exception of the contents of the `commons` folder which is used only for command line argument parsing, everything was written by me. 
 ## Summary
 This program sends a file over the network using a TCP-like transfer protocol, built using only UDP. I have implemented multiple facets of reliable data transfer: checksum checking, flow control, congestion control, to overcome unreliable connections. The file will transmit successfully even with lost, corrupted, or out-of-order packets. The file is read in through an input stream, and sends small chunks. As the server recieves pieces of the file, an MD5 sum is calculated/updated. When the server has recieved all of the packets, it will print the final MD5 sum, which should match the MD5 sum of the original file. The entire file itself is not stored on the server, only the MD5 sum is calculated. Packets are thrown away by the server once they are no longer needed.
 
 ## How to compile
-run the script called "go"
+Run the script `go`
 
 or
 
-run the command `javac -d bld $(find . -name "*.java")`
+Run the command `javac -d bld $(find . -name "*.java")`
 
 ## How to run
 You will need two instances of the program running, a client to send the file and a server to recieve. 
