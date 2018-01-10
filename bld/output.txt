@@ -1,0 +1,308 @@
+Client: Connection established
+Client: max bytes is 1000 and bytes in flight is 0
+Client: Sending new packet
+Client: Sending packet 0
+Client: setting rwnd to 999
+Client: Got ack # 1000
+Client: max bytes is 999 and bytes in flight is 0
+Client: Sending new packet
+Client: Sending packet 1000
+Client: 	Slow start
+Client: 	cwnd = 3000
+Client: 	ssthresh = 64000
+Client: 	dup acks = 0
+Client: setting rwnd to 999
+Client: Got ack # 2000
+Client: max bytes is 999 and bytes in flight is 0
+Client: Sending new packet
+Client: Sending packet 2000
+Client: 	Slow start
+Client: 	cwnd = 4000
+Client: 	ssthresh = 64000
+Client: 	dup acks = 0
+Client: setting rwnd to 999
+Client: Got ack # 3000
+Client: max bytes is 999 and bytes in flight is 0
+Client: Sending new packet
+Client: Sending packet 3000
+Client: 	Slow start
+Client: 	cwnd = 5000
+Client: 	ssthresh = 64000
+Client: 	dup acks = 0
+Client: Packet 3000 timed out!
+Client: 	Slow start
+Client: 	cwnd = 2500
+Client: 	ssthresh = 2500
+Client: 	dup acks = 0
+Client: Resending 3000
+Client: Sending packet 3000
+Client: setting rwnd to 999
+Client: Got ack # 4000
+Client: Moving to congestion avoidance
+Client: 	Congestion avoidance
+Client: 	cwnd = 3500
+Client: 	ssthresh = 2500
+Client: 	dup acks = 0
+Client: max bytes is 999 and bytes in flight is 0
+Client: Sending new packet
+Client: Sending packet 4000
+Client: 	Congestion avoidance
+Client: 	cwnd = 3500
+Client: 	ssthresh = 2500
+Client: 	dup acks = 0
+Client: setting rwnd to 999
+Client: Got ack # 4000
+Client: Going to fast recovery
+Client: max bytes is 999 and bytes in flight is 1000
+Client: 	Fast recovery
+Client: 	cwnd = 4250
+Client: 	ssthresh = 1250
+Client: 	dup acks = 1
+Client: setting rwnd to 999
+Client: Got ack # 5000
+Client: Going to congestion avoidance
+Client: max bytes is 999 and bytes in flight is 0
+Client: Sending new packet
+Client: Sending packet 5000
+Client: 	Congestion avoidance
+Client: 	cwnd = 4485
+Client: 	ssthresh = 1250
+Client: 	dup acks = 0
+Client: setting rwnd to 999
+Client: Got ack # 6000
+Client: max bytes is 999 and bytes in flight is 0
+Client: Sending new packet
+Client: Sending packet 6000
+Client: 	Congestion avoidance
+Client: 	cwnd = 4707
+Client: 	ssthresh = 1250
+Client: 	dup acks = 0
+Client: setting rwnd to 999
+Client: Got ack # 7000
+Client: max bytes is 999 and bytes in flight is 0
+Client: Sending new packet
+Client: Sending packet 7000
+Client: 	Congestion avoidance
+Client: 	cwnd = 4919
+Client: 	ssthresh = 1250
+Client: 	dup acks = 0
+Client: setting rwnd to 999
+Client: Got ack # 8000
+Client: max bytes is 999 and bytes in flight is 0
+Client: Sending new packet
+Client: Sending packet 8000
+Client: 	Congestion avoidance
+Client: 	cwnd = 5122
+Client: 	ssthresh = 1250
+Client: 	dup acks = 0
+Client: setting rwnd to 999
+Client: Got ack # 9000
+Client: max bytes is 999 and bytes in flight is 0
+Client: Sending new packet
+Client: Sending packet 9000
+Client: 	Congestion avoidance
+Client: 	cwnd = 5317
+Client: 	ssthresh = 1250
+Client: 	dup acks = 0
+Client: setting rwnd to 999
+Client: Got ack # 10000
+Client: max bytes is 999 and bytes in flight is 0
+Client: Sending new packet
+Client: Sending packet 10000
+Client: 	Congestion avoidance
+Client: 	cwnd = 5505
+Client: 	ssthresh = 1250
+Client: 	dup acks = 0
+Client: setting rwnd to 999
+Client: Got ack # 11000
+Client: max bytes is 999 and bytes in flight is 0
+Client: Sending new packet
+Client: Sending packet 11000
+Client: 	Congestion avoidance
+Client: 	cwnd = 5686
+Client: 	ssthresh = 1250
+Client: 	dup acks = 0
+Client: setting rwnd to 999
+Client: Got ack # 12000
+Client: max bytes is 999 and bytes in flight is 0
+Client: Sending new packet
+Client: Sending packet 12000
+Client: 	Congestion avoidance
+Client: 	cwnd = 5861
+Client: 	ssthresh = 1250
+Client: 	dup acks = 0
+Client: setting rwnd to 999
+Client: Got ack # 13000
+Client: max bytes is 999 and bytes in flight is 0
+Client: Sending new packet
+Client: Sending packet 13000
+Client: 	Congestion avoidance
+Client: 	cwnd = 6031
+Client: 	ssthresh = 1250
+Client: 	dup acks = 0
+Client: setting rwnd to 999
+Client: Got ack # 14000
+Client: max bytes is 999 and bytes in flight is 0
+Client: Sending new packet
+Client: Sending packet 14000
+Client: 	Congestion avoidance
+Client: 	cwnd = 6196
+Client: 	ssthresh = 1250
+Client: 	dup acks = 0
+Client: setting rwnd to 999
+Client: Got ack # 15000
+Client: max bytes is 999 and bytes in flight is 0
+Client: Sending new packet
+Client: Sending packet 15000
+Client: 	Congestion avoidance
+Client: 	cwnd = 6357
+Client: 	ssthresh = 1250
+Client: 	dup acks = 0
+Client: setting rwnd to 999
+Client: Got ack # 16000
+Client: max bytes is 999 and bytes in flight is 0
+Client: Sending new packet
+Client: Sending packet 16000
+Client: 	Congestion avoidance
+Client: 	cwnd = 6514
+Client: 	ssthresh = 1250
+Client: 	dup acks = 0
+Client: setting rwnd to 999
+Client: Got ack # 17000
+Client: max bytes is 999 and bytes in flight is 0
+Client: Sending new packet
+Client: Sending packet 17000
+Client: 	Congestion avoidance
+Client: 	cwnd = 6667
+Client: 	ssthresh = 1250
+Client: 	dup acks = 0
+Client: setting rwnd to 999
+Client: Got ack # 18000
+Client: max bytes is 999 and bytes in flight is 0
+Client: Sending new packet
+Client: Sending packet 18000
+Client: 	Congestion avoidance
+Client: 	cwnd = 6816
+Client: 	ssthresh = 1250
+Client: 	dup acks = 0
+Client: setting rwnd to 999
+Client: Got ack # 19000
+Client: max bytes is 999 and bytes in flight is 0
+Client: Sending new packet
+Client: Sending packet 19000
+Client: 	Congestion avoidance
+Client: 	cwnd = 6962
+Client: 	ssthresh = 1250
+Client: 	dup acks = 0
+Client: setting rwnd to 999
+Client: Got ack # 20000
+Client: max bytes is 999 and bytes in flight is 0
+Client: Sending new packet
+Client: Sending packet 20000
+Client: 	Congestion avoidance
+Client: 	cwnd = 7105
+Client: 	ssthresh = 1250
+Client: 	dup acks = 0
+Client: setting rwnd to 999
+Client: Got ack # 21000
+Client: max bytes is 999 and bytes in flight is 0
+Client: Sending new packet
+Client: Sending packet 21000
+Client: 	Congestion avoidance
+Client: 	cwnd = 7245
+Client: 	ssthresh = 1250
+Client: 	dup acks = 0
+Client: setting rwnd to 999
+Client: Got ack # 22000
+Client: max bytes is 999 and bytes in flight is 0
+Client: Sending new packet
+Client: Sending packet 22000
+Client: 	Congestion avoidance
+Client: 	cwnd = 7383
+Client: 	ssthresh = 1250
+Client: 	dup acks = 0
+Client: setting rwnd to 999
+Client: Got ack # 23000
+Client: max bytes is 999 and bytes in flight is 0
+Client: Sending new packet
+Client: Sending packet 23000
+Client: 	Congestion avoidance
+Client: 	cwnd = 7518
+Client: 	ssthresh = 1250
+Client: 	dup acks = 0
+Client: setting rwnd to 999
+Client: Got ack # 24000
+Client: max bytes is 999 and bytes in flight is 0
+Client: Sending new packet
+Client: Sending packet 24000
+Client: 	Congestion avoidance
+Client: 	cwnd = 7651
+Client: 	ssthresh = 1250
+Client: 	dup acks = 0
+Client: Packet 24000 timed out!
+Client: Going to slow start
+Client: 	Slow start
+Client: 	cwnd = 6325
+Client: 	ssthresh = 3325
+Client: 	dup acks = 0
+Client: Resending 24000
+Client: Sending packet 24000
+Client: setting rwnd to 999
+Client: Got ack # 25000
+Client: Moving to congestion avoidance
+Client: 	Congestion avoidance
+Client: 	cwnd = 7325
+Client: 	ssthresh = 3325
+Client: 	dup acks = 0
+Client: max bytes is 999 and bytes in flight is 0
+Client: Sending new packet
+Client: Sending packet 25000
+Client: 	Congestion avoidance
+Client: 	cwnd = 7325
+Client: 	ssthresh = 3325
+Client: 	dup acks = 0
+Client: setting rwnd to 999
+Client: Got ack # 25000
+Client: Going to fast recovery
+Client: max bytes is 999 and bytes in flight is 1000
+Client: 	Fast recovery
+Client: 	cwnd = 6162
+Client: 	ssthresh = 3162
+Client: 	dup acks = 1
+Client: setting rwnd to 999
+Client: Got ack # 26000
+Client: Going to congestion avoidance
+Client: max bytes is 999 and bytes in flight is 0
+Client: Sending new packet
+Client: Sending packet 26000
+Client: 	Congestion avoidance
+Client: 	cwnd = 6324
+Client: 	ssthresh = 3162
+Client: 	dup acks = 0
+Client: setting rwnd to 999
+Client: Got ack # 27000
+Client: max bytes is 999 and bytes in flight is 0
+Client: Sending new packet
+Client: Sending packet 27000
+Client: 	Congestion avoidance
+Client: 	cwnd = 6482
+Client: 	ssthresh = 3162
+Client: 	dup acks = 0
+Client: setting rwnd to 999
+Client: Got ack # 28000
+Client: max bytes is 999 and bytes in flight is 0
+Client: Sending new packet
+Client: Sending packet 28000
+Client: 	Congestion avoidance
+Client: 	cwnd = 6636
+Client: 	ssthresh = 3162
+Client: 	dup acks = 0
+Client: setting rwnd to 999
+Client: Got ack # 29000
+Client: max bytes is 999 and bytes in flight is 0
+Client: Sending new packet
+Client: Sending packet 29000
+Client: 	Congestion avoidance
+Client: 	cwnd = 6786
+Client: 	ssthresh = 3162
+Client: 	dup acks = 0
