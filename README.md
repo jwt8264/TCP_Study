@@ -36,6 +36,6 @@ When it's done, you can check the server instance that you started and it should
 
 
 ## How do I know it worked
-Calculate the MD5 sum of the original file you are sending, either by hand, or use a diff. The MD5 output by the server instance of the program should match the MD5 that you calculated. 
+Calculate the MD5 sum of the original file you are sending. The MD5 output by the server instance of the program should match the MD5 that you calculated. 
 
 If you don't want to do that, then you can use the file `test1M.bin` as the file to send, and check against the checksum contained in `test1M.bin.md5`. This test data was given with our assignment. 
